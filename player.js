@@ -2,11 +2,11 @@
 const prompt = require('prompt-sync')();
 class Player {
     constructor(rock, paper, scissors, lizard, Spock) {
-        this.rock = rock;
-        this.paper = paper;
-        this.scissors = scissors;
-        this.lizard = lizard;
-        this.Spock = Spock;
+        this.rock = 1;
+        this.paper = 2;
+        this.scissors = 3;
+        this.lizard = 4;
+        this.Spock = 5;
         this.roll = null;
     }
 
