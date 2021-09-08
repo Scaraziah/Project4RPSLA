@@ -8,7 +8,7 @@ class Human extends Player {
         this.roll = null;
     }
     takesTurn() {
-        parseInt(prompt(`Make your choice:\n1) Rock\n2)Paper\n3) Scissors\n4 Lizard\5) Spock`));
+        parseInt(prompt(`Make your choice:\n1) Rock\n2)Paper\n3) Scissors\n4 Lizard\n5) Spock`));
            return roll;
        }
 }

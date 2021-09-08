@@ -2,7 +2,6 @@
 const prompt = require('prompt-sync')();
 var Human = require('./player');
 var AI = require('./player');
-var {roll} = require('./player');
 var {play} = require ('./game');
 begin();
 function begin() {
