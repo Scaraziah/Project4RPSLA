@@ -2,15 +2,15 @@
 const prompt = require('prompt-sync')();
 
 class Player {
-    constructor(name) {
-       this.name = name;
+    constructor() {
+       this.name = "";
        this.win = 0;
        this.gestures = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
-       this.selectGest = null;
+       this.myGest = "";
     }
-    chosenGest(){
+    selectGesture(){
         //put in code by player type
     }
 }
 
-module.export = Player;
+module.exports = Player;
